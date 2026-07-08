@@ -11,8 +11,6 @@ from data_loader import load_data, get_records
 import copy
 
 
-
-
 def train(args, is_topk):
     data = load_data(args)
     n_entity, n_relation = data[0], data[1]
