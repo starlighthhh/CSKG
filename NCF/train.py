@@ -11,7 +11,6 @@ from data_loader import load_data, get_records
 import copy
 
 
-
 def train(args, is_topk):
     data = load_data(args)
     pre_entity_embedding = data[0]
