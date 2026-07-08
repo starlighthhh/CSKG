@@ -16,8 +16,6 @@ if __name__ == '__main__':
 
 
 
-
-
         parser.add_argument('--dataset', type=str, default='yelp', help='dataset')
         parser.add_argument('--learning_rate', type=float, default=1e-3, help='learning rate')
         parser.add_argument('--l2', type=float, default=1e-5, help='L2')
