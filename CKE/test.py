@@ -4,8 +4,6 @@ print(s1 & s2)
 
 import torch as t
 
-
-
 x = t.randn(3)
 print(x.device)
 print(type(x))
